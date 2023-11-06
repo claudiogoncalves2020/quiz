@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+</header>
+
+<body class="container d-flex justify-content-center align-items-center bg-dark">
+    <div id="quiz-container" class="card">
+
+        <div class="card-header">
+            <h1 id="question"></h1>
+        </div>
+
+        <div class="card-body">
+            <div id="answers"></div>
+        </div>
+
+        <div class="card-footer">
+            <button id="next-button" class="btn btn-primary" onclick="nextQuestion()">Nächste Frage</button>
+        </div>
+    </div>
+
+    <div id="result" hidden="true" class="card">
+
+        <div class="card-header">
+            <h1>Quiz beendet!</h1>
+
+        </div>
+
+        <div class="card-body">
+            <p>Deine Punktzahl: <span id="score"></span></p>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
